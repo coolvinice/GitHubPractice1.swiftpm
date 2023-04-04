@@ -18,15 +18,21 @@ struct ContentView: View {
             }
             
             Button("Add"){
-                
+                if(number1 != nil && number2 != nil) {
+                    answer = number1! + number2!
+                }
             }
             
             Button("Subtract"){
-                
+                if(number1 != nil && number2 != nil) {
+                    answer = number1! - number2!
+                }
             }
             
             Button("Divide"){
-                
+                if(number1 != nil && number2 != nil) {
+                    answer = number1! / number2!
+                }
             }
             
             Text("\(answer)")
