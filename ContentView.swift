@@ -10,8 +10,16 @@ struct ContentView: View {
             TextField("Enter Number 1", value: $number1, format: .number)
             
             TextField("Enter Number 2", value: $number1, format: .number)
-            
-            Button("Multiply") {
+            Button("Multiply"){
+                
+            }
+            Button("Add"){
+                
+            }
+            Button("Subtract"){
+                
+            }
+            Button("Divide"){
                 
             }
             
