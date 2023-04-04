@@ -25,21 +25,27 @@ struct ContentView: View {
                 .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.red))
                 
                 Button("Add"){
-                    
+                    if(number1 != nil && number2 != nil) {
+                        answer = number1! + number2!
+                    }
                 }
                 .padding(7)
                 .foregroundColor(.white)
                 .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.blue))
                 
                 Button("Subtract"){
-                    
+                    if(number1 != nil && number2 != nil) {
+                        answer = number1! - number2!
+                    }
                 }
                 .padding(7)
                 .foregroundColor(.white)
                 .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.orange))
                 
                 Button("Divide"){
-                    
+                    if(number1 != nil && number2 != nil) {
+                        answer = number1! / number2!
+                    }
                 }
                 .padding(7)
                 .foregroundColor(.white)
