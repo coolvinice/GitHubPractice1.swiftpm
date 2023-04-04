@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var answer: Int? = nil
+    @State var answer: Int = 0
     @State var number1: Int? = nil
     @State var number2: Int? = nil
     
@@ -15,7 +15,7 @@ struct ContentView: View {
                 
             }
             
-            Text("answer")
+            Text("\(answer)")
         }
     }
 }
