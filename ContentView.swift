@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var number1: Int?
-    @State var number2: Int?
+    @State var number1: Int? = nil
+    @State var number2: Int? = nil
     
     var body: some View {
         HStack {
