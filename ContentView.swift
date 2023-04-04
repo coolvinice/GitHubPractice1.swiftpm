@@ -10,15 +10,21 @@ struct ContentView: View {
             TextField("Enter Number 1", value: $number1, format: .number)
             
             TextField("Enter Number 2", value: $number1, format: .number)
+            
             Button("Multiply"){
-                
+                if(number1 != nil && number2 != nil) {
+                    answer = number1! * number2!
+                }
             }
+            
             Button("Add"){
                 
             }
+            
             Button("Subtract"){
                 
             }
+            
             Button("Divide"){
                 
             }
